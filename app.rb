@@ -1,6 +1,5 @@
-schools = ["Brown University", "The University of Chicago", "MIT", "Dartmouth College", "University of Notre Dame", "UCLA"]
+require './schools'
 
-schools.each do |school|
-  #This is where the magic happens
+@schools.each do |school|mattgaidica
   puts "We love " + school.split(' ').first
 end
